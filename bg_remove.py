@@ -6,7 +6,7 @@ import base64
 
 st.set_page_config(layout="wide", page_title="Veritas Image Background Remover")
 
-st.write("## Remove background from your image")
+#st.write("## Remove background from your image")
 st.write(
     "Try uploading an image to watch the background magically removed. Full quality images can be downloaded from the sidebar."
 )
