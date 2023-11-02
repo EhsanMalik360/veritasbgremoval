@@ -31,7 +31,7 @@ def fix_image(upload):
     col2.write("Removed Background :wrench:")
     col2.image(fixed)
     st.sidebar.markdown("\n")
-    st.sidebar.download_button("Download Updated Image", convert_image(fixed), "fixed.png", "image/png")
+    st.sidebar.download_button("Download Updated Image", convert_image(fixed), "updated.png", "image/png")
 
 
 col1, col2 = st.columns(2)
